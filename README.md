@@ -13,7 +13,7 @@ Het project gebruikt een aangepast contenttype in Prismic genaamd `page`. Dit co
 
 Hier is hoe dit type is gedefinieerd in Prismic (`index.json`):
 
-```json
+```
 {
   "id": "page",
   "label": "page",
@@ -75,15 +75,16 @@ Hier is hoe dit type is gedefinieerd in Prismic (`index.json`):
       }
     }
   }
-}```
+}
+```
 
-2. Slices in het Project
-
+## 2. Slices in het Project
 Slices zijn herbruikbare contentblokken die editors dynamisch kunnen toevoegen aan de pagina. Dit project bevat twee hoofd-slices:
 
 PageContent Slice
 
 De PageContent slice toont een eenvoudige kop. Hier is hoe de slice wordt gerenderd in de Svelte-component:
+```
 <script>
   /** @type {import("@prismicio/client").Content.PageContentSlice} */
   export let slice;
@@ -101,9 +102,10 @@ De PageContent slice toont een eenvoudige kop. Hier is hoe de slice wordt gerend
     margin: 4rem;
   }
 </style>
+```
 
 Mock Data (mocks.json) simuleert de inhoud van deze slice voor lokale ontwikkeling:
-
+```
 [
   {
     "variation": "default",
@@ -115,11 +117,12 @@ Mock Data (mocks.json) simuleert de inhoud van deze slice voor lokale ontwikkeli
     "items": []
   }
 ]
+```
 
 TestSlice
 
 De TestSlice slice toont een galerij van afbeeldingen. Hier is hoe de slice wordt gerenderd:
-
+```
 <script>
   import { PrismicImage } from '@prismicio/svelte';
   export let slice;
@@ -140,9 +143,9 @@ De TestSlice slice toont een galerij van afbeeldingen. Hier is hoe de slice word
     background-color: #002b5b;
   }
 </style>
-
+```
 Mockdata voor deze slice (mocks.json):
-
+```
 [
   {
     "variation": "default",
@@ -157,11 +160,12 @@ Mockdata voor deze slice (mocks.json):
     ]
   }
 ]
+```
 
-3. Gegevens ophalen uit Prismic
+## 3. Gegevens ophalen uit Prismic
 
 De app gebruikt de Prismic-client om paginagegevens op te halen uit de CMS. Dit is ingesteld in prismicio.js:
-
+```
 import * as prismic from '@prismicio/client';
 import config from '../../slicemachine.config.json';
 
@@ -171,11 +175,11 @@ export const createClient = (config = {}) => {
   const client = prismic.createClient(repositoryName, { ...config });
   return client;
 };
-
-4. Het Weergeven van de Slices
+```
+## 4. Het Weergeven van de Slices
 
 Zodra de content is opgehaald uit Prismic, worden de slices dynamisch gerenderd met behulp van de SliceZone-component in Svelte:
-
+```
 <script>
   import { SliceZone } from '@prismicio/svelte';
   import { components } from '$lib/slices';
@@ -190,11 +194,11 @@ Zodra de content is opgehaald uit Prismic, worden de slices dynamisch gerenderd 
     <h2>Klasse 1998 <br /> Geborteplaats : Napels</h2>
   </header>
 </article>
-
-5. Ontwikkeling met de Slice Simulator
+```
+## 5. Ontwikkeling met de Slice Simulator
 
 De Slice Simulator helpt ontwikkelaars om slices lokaal te testen zonder dat echte content van Prismic nodig is. De simulator is gedefinieerd in slice-simulator.svelte:
-
+```
 <script>
   import { SliceSimulator } from '@slicemachine/adapter-sveltekit/simulator';
   import { SliceZone } from '@prismicio/svelte';
@@ -204,16 +208,16 @@ De Slice Simulator helpt ontwikkelaars om slices lokaal te testen zonder dat ech
 <SliceSimulator let:slices>
   <SliceZone {slices} {components} />
 </SliceSimulator>
-
+```
 Hiermee kun je tijdens de ontwikkeling testen hoe slices worden gerenderd met mockdata.
 
 
-6. Paginavoorbeeld
+## 6. Paginavoorbeeld
 
 De hoofdpagina is gestructureerd met slices, waardoor de content dynamisch kan worden gegenereerd en gerenderd op basis van de gegevens uit Prismic. De layout is eenvoudig en responsief, met de nadruk op belangrijke vaardigheden en hobby’s.
 
 Hier is een fragment uit index.svelte:
-
+```
 <body>
   <article>
     <header>
@@ -235,8 +239,8 @@ Hier is een fragment uit index.svelte:
     </div>
   </article>
 </body>
-
-7. Het Project Uitvoeren
+```
+## 7. Het Project Uitvoeren
 
 Volg deze stappen om het project uit te voeren:
 

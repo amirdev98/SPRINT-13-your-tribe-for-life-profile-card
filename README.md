@@ -75,7 +75,7 @@ Hier is hoe dit type is gedefinieerd in Prismic (`index.json`):
       }
     }
   }
-}
+}```
 
 2. Slices in het Project
 

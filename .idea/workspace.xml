@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78141120-bf99-4efd-8e3b-1fc3dde25747" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/PageContent/mocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/PageContent/mocks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/PageContent/model.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/PageContent/model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/SPRINT-13-your-tribe-for-life-profile-card.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/mocks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/TestSlice/mocks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/model.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/TestSlice/model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prismicio-types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/prismicio-types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/global.css" afterDir="false" />
     </list>
@@ -52,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "last-version-commit",
     "last_opened_file_path": "/Users/amirnapoletano/Documents/Github/SPRINT-13-your-tribe-for-life-profile-card/src/lib/slices/TestSlice",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",

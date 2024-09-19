@@ -10,7 +10,7 @@
 		<SliceZone slices={data.slices} {components} />
 		<header>
 			<h1>{data.name}</h1>
-			<p><em> Tweede jaar Front-end Developer</em></p>
+			<p><em> Tweede jaar student Front-end Designer Developer</em></p>
 			<h2>
 				Klasse 1998 <br />
 				Geborteplaats : Napels
@@ -39,7 +39,7 @@
 				</li>
 			</ul>
 		</div>
-		<h4>My favorite citaat</h4>
+		<h3>Italiaase trots</h3>
 		<p>
 			"Beter om op een dag als leeuw te leven, dan honderd jaar als schaap."<br />
 			cit. Giovanni Falcone.<br />
@@ -98,6 +98,7 @@
         margin: 1rem 0;
         color: rgb(8, 1, 85);
         text-align: center;
+				font-family: 'Alegreya', serif;
     }
 
     p {
@@ -117,7 +118,7 @@
         font-size: 1.5rem;
     }
 
-    h4 {
+    h3 {
         color: rgb(49, 5, 54);
         margin-top: 2rem;
     }
@@ -135,14 +136,17 @@
         box-shadow: 5px 10px 15px black;
         width: 100%;
         max-width: 40em;
+				font-family: 'Alegreya', serif;
     }
 
     .skills {
         transform: perspective(25cm) rotateX(-18deg) rotateY(25deg);
+				font-family: 'Alegreya', serif;
     }
 
     .hobbies {
         transform: perspective(26cm) rotateX(-16deg) rotateY(-18deg);
+				font-family: 'Alegreya', serif;
     }
 
     ::selection {
@@ -167,6 +171,7 @@
         .skills, .hobbies {
             transform: none;
             margin: 1rem 0;
+						font-family: 'Alegreya', serif;
         }
     }
 </style>

@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78141120-bf99-4efd-8e3b-1fc3dde25747" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

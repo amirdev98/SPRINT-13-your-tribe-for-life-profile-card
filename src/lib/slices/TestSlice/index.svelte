@@ -5,13 +5,17 @@
 	export let slice;
 </script>
 
-<section data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
+<section class="img-wrapper" data-slice-type={slice.slice_type} data-slice-variation={slice.variation}>
 	{#each slice.items as item}
-		<PrismicImage field={item.imagefield} width="200" height="300" />
+		<figure class="PrismicImage">
+			<PrismicImage field={item.imagefield}  />
+		</figure>
 	{/each}
 </section>
 
 <style>
+
+
     section[data-slice-type] {
         display: flex;
         flex-wrap: wrap;
@@ -24,11 +28,14 @@
 
     .PrismicImage {
         width: 200px; /* Adjust this if you want a different size */
-        height: auto;
+        /*height: auto;*/
+        height: 300px;
         overflow: hidden;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         transition: transform 0.2s;
         border-radius: 1rem; /* Apply border-radius here */
+        margin: 0 !important;
+
     }
 
     .PrismicImage:hover {

@@ -63,7 +63,7 @@
         justify-content: center;
         align-items: center;
         color: #143b2e;
-        background-color: #d2e69c;
+        background-color: #004952;
         padding: 1rem;
     }
 
@@ -73,7 +73,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: #28b5b5;
+        background: #c6f5e4;
         box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
         border-radius: 2rem;
         padding: 2rem;
@@ -92,13 +92,11 @@
         margin: 1rem 0;
         color: #002b5b;
         font-size: 2rem;
-        font-family: 'Alegreya', serif;
     }
     div h1 {
         margin: 1rem 0;
-        color: rgb(8, 1, 85);
+        color: #004952;
         text-align: center;
-				font-family: 'Alegreya', serif;
     }
 
     p {
@@ -114,12 +112,12 @@
     }
 
     h2 {
-        color: rgb(49, 5, 54);
+        color:#004952;
         font-size: 1.5rem;
     }
 
     h3 {
-        color: rgb(49, 5, 54);
+        color: #004952;
         margin-top: 2rem;
     }
 
@@ -129,24 +127,21 @@
     }
 
     .skills, .hobbies {
-        background-color: rgb(215, 207, 97);
+        background-color:azure;
         margin: 2rem 0;
         border-radius: 25px;
         padding: 1rem;
         box-shadow: 5px 10px 15px black;
         width: 100%;
         max-width: 40em;
-				font-family: 'Alegreya', serif;
     }
 
     .skills {
         transform: perspective(25cm) rotateX(-18deg) rotateY(25deg);
-				font-family: 'Alegreya', serif;
     }
 
     .hobbies {
         transform: perspective(26cm) rotateX(-16deg) rotateY(-18deg);
-				font-family: 'Alegreya', serif;
     }
 
     ::selection {
@@ -171,7 +166,6 @@
         .skills, .hobbies {
             transform: none;
             margin: 1rem 0;
-						font-family: 'Alegreya', serif;
         }
     }
 </style>

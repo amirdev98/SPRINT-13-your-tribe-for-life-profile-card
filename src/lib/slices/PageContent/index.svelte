@@ -9,10 +9,11 @@
 
 <style>
 	h1 {
-		color: #333;
+		color: #004952;
 		font-size: 2rem;
 		text-align: center;
 		margin: 4rem;
 			font-family: 'Alegreya', serif;
-	}
+
+  }
 </style>

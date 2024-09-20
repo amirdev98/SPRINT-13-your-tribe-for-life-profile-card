@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="78141120-bf99-4efd-8e3b-1fc3dde25747" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled/.idea/Untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/PageContent/index.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/slices/TestSlice/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/style/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "last-version-commit",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/amirnapoletano/Documents/Github/SPRINT-13-your-tribe-for-life-profile-card/src/lib/slices/TestSlice",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",

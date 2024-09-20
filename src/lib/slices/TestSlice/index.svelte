@@ -22,7 +22,7 @@
         justify-content: center;
         gap: 20px;
         padding: 20px;
-        background-color: #002b5b;
+        background-color: #004952;
         border-radius: 2rem;
     }
 

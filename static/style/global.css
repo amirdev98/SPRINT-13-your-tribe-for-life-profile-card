@@ -1,15 +1,31 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+root {
+        --primary: #c6f5e4;
+        --secondary: #004952;
+        --font-primary: 'Roboto', sans-serif;
+        --font-secondary: 'Alegreya', serif;
+}
+* {
         font-family: 'Alegreya', serif;
+        /*font-family: 'Roboto', sans-serif !important;*/
+}
+body {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #d2e69c;
+        background-color: #c6f5e4;
         padding: 1rem;
         box-sizing: border-box;
+        font-family: 'Alegreya', serif;
+        /*font-family: 'Roboto', sans-serif !important;;*/
+
 }
 html {
         font-size: 62.5%;
     font-family: 'Alegreya', serif;
+        /*font-family: 'Roboto', sans-serif !important;*/
+
 }
 
 img {

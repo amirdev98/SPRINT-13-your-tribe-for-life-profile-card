@@ -1,5 +1,8 @@
 # Projectoverzicht
 
+![image](https://github.com/user-attachments/assets/a948d273-ba5d-4851-a49d-11bab71381b6)
+
+
 Dit project integreert **Prismic CMS** met een **SvelteKit** front-end, waardoor dynamisch contentbeheer mogelijk is via Prismic's **Slices**. Slices maken het mogelijk om herbruikbare, flexibele contentblokken te gebruiken, waardoor het eenvoudig is om content te maken en bij te werken zonder dat de code aangepast hoeft te worden.
 
 ## 1. Prismic CMS Setup
